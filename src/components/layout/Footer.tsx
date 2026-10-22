@@ -15,7 +15,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenReservation }) => {
             <span className="text-xl font-black tracking-wider">AUTO <span className="text-red-600">GARAGE</span></span>
             <p className="text-xs text-neutral-400 uppercase tracking-widest">Entretien & Réparation</p>
             <p className="text-neutral-400 text-sm leading-relaxed">
-              Votre garage de confiance pour l'entretien et la réparation de votre voiture à Dakar[span_10](start_span)[span_10](end_span).
+              Votre garage de confiance pour l'entretien et la réparation de votre voiture à Dakar.
             </p>
           </div>
 
@@ -35,26 +35,26 @@ export const Footer: React.FC<FooterProps> = ({ onOpenReservation }) => {
             <ul className="space-y-3 text-sm text-neutral-400">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-red-500 shrink-0 mt-0.5" />
-                <span>Parcelles Assainies, Dakar, Sénégal[span_11](start_span)[span_11](end_span)</span>
+                <span>Parcelles Assainies, Dakar, Sénégal</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-red-500 shrink-0" />
-                <span>+221 77 123 45 67[span_12](start_span)[span_12](end_span)</span>
+                <span>+221 77 123 45 67</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-red-500 shrink-0" />
-                <span>contact@autogarage.sn[span_13](start_span)[span_13](end_span)</span>
+                <span>contact@autogarage.sn</span>
               </li>
               <li className="flex items-center gap-3">
                 <Clock size={18} className="text-red-500 shrink-0" />
-                <span>Lun - Sam : 08h00 - 18h00[span_14](start_span)[span_14](end_span)</span>
+                <span>Lun - Sam : 08h00 - 18h00</span>
               </li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold text-sm uppercase tracking-wider mb-4 text-red-500">Rendez-vous</h4>
-            <p className="text-neutral-400 text-sm mb-4">Planifiez votre rendez-vous facilement en ligne[span_15](start_span)[span_15](end_span).</p>
+            <p className="text-neutral-400 text-sm mb-4">Planifiez votre rendez-vous facilement en ligne.</p>
             <button 
               onClick={onOpenReservation}
               className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-lg shadow-lg shadow-red-600/20 transition cursor-pointer"
@@ -66,7 +66,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenReservation }) => {
         </div>
 
         <div className="border-t border-neutral-900 pt-8 text-center text-xs text-neutral-500">
-          <p>© 2025 Auto Garage. Tous droits réservés[span_16](start_span)[span_16](end_span).</p>
+          <p>© 2025 Auto Garage. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
